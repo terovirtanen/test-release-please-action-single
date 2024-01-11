@@ -1,34 +1,19 @@
 # .github/workflows/release-please.yml
 name: release-please
-on: 
+on:
   push:
     branches:
       - master
-  release:
-    types: [published]
-  workflow_dispatch:
-    inputs:
-      label:
-        description: 'PR label, force update for release-please PRs. Do not use spaces!'
-        required: false
-        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Install release-please client
-        run: npm i release-please -g
-      # set extra label to ensure correct pr generation (menifest merge issue)
-      - name: Create release pr
-        run: |
-          printenv | sort
-          if [ -n "${{ github.event.release.tag_name }}" ]; then
-            LABEL="--label ${{ github.event.release.tag_name }}"
-          elif [ -n "${{ inputs.label }}" ]; then
-            LABEL="--label ${{ inputs.label }}"
-          fi
-          echo $LABEL
-
-          release-please release-pr --token=${{ secrets.GITHUB_TOKEN }} --repo-url=$GITHUB_REPOSITORY $LABEL
-      - name: Create github release
-        run: release-please github-release --token=${{ secrets.GITHUB_TOKEN }} --repo-url=$GITHUB_REPOSITORY
+      - uses: google-github-actions/release-please-action@v4
+        with:
+          release-type: node
+          package-name: testi2
