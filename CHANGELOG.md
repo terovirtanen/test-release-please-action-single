@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.2.0...testi-v0.3.0) (2024-01-11)
+
+
+### Features
+
+* Remove release-type ([1108ecb](https://github.com/terovirtanen/test-release-please-action-single/commit/1108ecb68f5daa2bd3eda1617d11d595f418e93e))
+
 ## [0.2.0](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.1.3...testi-v0.2.0) (2024-01-11)
 
 
