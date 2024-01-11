@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.0](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.1.3...testi-v0.2.0) (2024-01-11)
+
+
+### Features
+
+* Release-please action ([08f5874](https://github.com/terovirtanen/test-release-please-action-single/commit/08f5874860fef1b399869dda204cb10e6f34af99))
+
+
+### Bug Fixes
+
+* Manifest added ([#17](https://github.com/terovirtanen/test-release-please-action-single/issues/17)) ([7f0443e](https://github.com/terovirtanen/test-release-please-action-single/commit/7f0443eb31d3f38fceb0ee7515f7397cf807a83a))
+* Release-please config ([df93498](https://github.com/terovirtanen/test-release-please-action-single/commit/df934983159abd7142615fd98d7e5ddd0a81dc4d))
+
 ## [0.2.0](https://github.com/terovirtanen/test-release-please-action-single/compare/v0.1.3...v0.2.0) (2024-01-11)
 
 
