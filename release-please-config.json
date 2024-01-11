@@ -2,8 +2,7 @@
   "sequential-calls": true,
   "packages": {
     ".": {
-      "release-type": "node",
-      "package-name": "testi"
+      "release-type": "node"
     }
   },
   "plugins": ["sentence-case"]
