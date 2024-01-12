@@ -6,7 +6,8 @@
 ### Bug Fixes
 
 * Testi ([402c6d3](https://github.com/terovirtanen/test-release-please-action-single/commit/402c6d3dd074f4650af1e5d4a2b8709fae346400))
-
+* changelog rivin lisäys
+  
 ## [0.3.0](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.2.0...testi-v0.3.0) (2024-01-11)
 
 
