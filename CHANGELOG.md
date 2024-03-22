@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.4.0](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.3.1...testi-v0.4.0) (2024-03-22)
+
+
+### Features
+
+* New feature ([06cfe51](https://github.com/terovirtanen/test-release-please-action-single/commit/06cfe512fdd1fcb9de6a714a3f2de9a6d58704f6))
+
+
+### Dependencies
+
+* Package update ([65fd108](https://github.com/terovirtanen/test-release-please-action-single/commit/65fd108e0bb93b782fcf92670f03556ee5eec334))
+
+
+### Reverts
+
+* Ret section config ([47e732e](https://github.com/terovirtanen/test-release-please-action-single/commit/47e732e95809180ae7162cd58cf84c3928e52752))
+
+
+### Documentation
+
+* Add line ([6ebbf9c](https://github.com/terovirtanen/test-release-please-action-single/commit/6ebbf9cf560920dee209012de1e03da05a1c0c7c))
+* Remove line ([a7bd515](https://github.com/terovirtanen/test-release-please-action-single/commit/a7bd51596959fcd75aa8473eab1fb6386ffea205))
+
 ## [0.3.1](https://github.com/terovirtanen/test-release-please-action-single/compare/testi-v0.3.0...testi-v0.3.1) (2024-01-11)
 
 
