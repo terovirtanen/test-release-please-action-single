@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {},
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react2": "^2.2.0"
   },
   "devDependencies": {
     "webpack": "5.75.0"
